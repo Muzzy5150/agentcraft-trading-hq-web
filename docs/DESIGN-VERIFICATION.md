@@ -36,3 +36,13 @@ The preview was tested through the caller's existing Vercel authentication with 
 ## Operational limits retained
 
 Live Supabase persistence is not configured, the broadcast remains unconfigured, and full-HQ installer verification remains pending. These are existing operational states, not regressions introduced by this visual change. No real-money execution is offered.
+
+## Production verification
+
+Production: https://agentcraft-trading-hq-web.vercel.app
+
+Deployment ID: `dpl_6Z1xd4mtq5WbUFhN9dv9vz3XNXVh` — READY, production environment. Deployed application source commit: `08ad3e25ebfd67ac56a4560d7b38101415168449`; subsequent commits add screenshot evidence and this report only.
+
+All 46 browser tests passed against the public production alias without authentication headers. The post-deployment Vercel error-log query returned zero records for its 15-minute window. [Desktop/mobile production proof](screenshots/redesign/production-overview.webp) shows actual browser captures. Full-resolution production captures for all 17 routes remain in the local ignored `docs/screenshots/redesign-production/` directory. Preview screenshot copies are indexed above.
+
+GitHub Actions was also triggered by the source push; it was still queued when local and production verification completed. No CI success is assumed from a queued run.
