@@ -22,7 +22,7 @@ test("homepage, real artwork, navigation and accurate mode", async ({
     page.getByText("ENGINE OFFLINE", { exact: false }),
   ).toBeVisible();
   await expect(
-    page.getByRole("link", { name: "WATCH LIVE", exact: true }),
+    page.getByRole("link", { name: "WATCH THE HQ", exact: true }),
   ).toBeVisible();
   await expect(
     page.getByText("RECORDED HISTORY · LIVE SYNC NOT CONNECTED"),
@@ -37,7 +37,7 @@ test("homepage, real artwork, navigation and accurate mode", async ({
     path: `docs/screenshots/home-${info.project.name}.png`,
     fullPage: true,
   });
-  await page.getByRole("link", { name: "WATCH LIVE", exact: true }).click();
+  await page.getByRole("link", { name: "WATCH THE HQ", exact: true }).click();
   await expect(page.locator("h1")).toContainText("headquarters");
   await expect(
     page.getByText("BROADCAST OFFLINE", { exact: true }),

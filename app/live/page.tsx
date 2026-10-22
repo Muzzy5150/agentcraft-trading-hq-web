@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Eyebrow } from "@/components/ui";
+import { Eyebrow, SectionTitle } from "@/components/ui";
 import { Player } from "@/components/player";
 import {
   LivePanels,
@@ -10,29 +10,37 @@ import {
 export const metadata: Metadata = { title: "Live Headquarters" };
 export default function Live() {
   return (
-    <div className="container page">
-      <div className="page-heading live-heading">
-        <div>
-          <Eyebrow>A WINDOW INTO THE WORLD</Eyebrow>
-          <h1>Inside the headquarters.</h1>
-          <p>The floor, the decisions, and the evidence behind them.</p>
-        </div>
-        <span className="badge">SPECTATOR MODE · READ ONLY</span>
-      </div>
-      <StatusStrip />
-      <div className="live-layout">
-        <div>
-          <Player />
-          <Metrics compact />
-          <section className="panel">
-            <div className="panel-title">
-              RESEARCH, RECEIPTS & RECORDED DECISIONS
+    <>
+      <section className="broadcast-stage dark-section">
+        <div className="container">
+          <div className="page-heading live-heading">
+            <div>
+              <Eyebrow>A WINDOW INTO THE WORLD</Eyebrow>
+              <h1>Inside the headquarters.</h1>
+              <p>Pull up a seat. There’s a whole world at work.</p>
             </div>
-            <EventFeed />
-          </section>
+            <span className="badge">SPECTATOR MODE · READ ONLY</span>
+          </div>
+          <Player />
         </div>
-        <LivePanels />
+      </section>
+      <div className="container page live-page">
+        <StatusStrip />
+        <Metrics compact />
+        <div className="live-layout">
+          <section>
+            <SectionTitle
+              label="ON THE FLOOR"
+              title="Follow the activity."
+              description="Research, receipts, and recorded decisions from the headquarters."
+            />
+            <div className="panel">
+              <EventFeed />
+            </div>
+          </section>
+          <LivePanels />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

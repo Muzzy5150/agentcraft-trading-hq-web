@@ -7,7 +7,10 @@ export default defineConfig({
   reporter: "list",
   use: {
     baseURL: process.env.TEST_URL || "http://127.0.0.1:3000",
-    trace: "retain-on-failure",
+    trace: process.env.VERCEL_OIDC_TOKEN ? "off" : "retain-on-failure",
+    extraHTTPHeaders: process.env.VERCEL_OIDC_TOKEN
+      ? { "x-vercel-trusted-oidc-idp-token": process.env.VERCEL_OIDC_TOKEN }
+      : {},
   },
   projects: [
     { name: "desktop", use: { ...devices["Desktop Chrome"] } },

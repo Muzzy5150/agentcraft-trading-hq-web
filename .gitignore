@@ -9,3 +9,7 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 .DS_Store
+# Full-resolution visual QA evidence stays local; selected WebP captures are tracked.
+/docs/screenshots/redesign-local/
+/docs/screenshots/redesign-preview/
+/docs/screenshots/redesign-production/

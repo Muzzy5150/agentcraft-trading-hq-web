@@ -22,7 +22,7 @@ const requirements = [
 ];
 export default function Deploy() {
   return (
-    <div className="container page">
+    <div className="container page deploy-page">
       <div className="deploy-hero">
         <div>
           <Eyebrow>BUILD YOUR OWN CORNER OF THE WORLD</Eyebrow>

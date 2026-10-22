@@ -23,7 +23,7 @@ export default async function Profile({
   const a = getAgent((await params).slug);
   if (!a) notFound();
   return (
-    <div className="container page">
+    <div className="container page profile-page">
       <Link href="/agents" className="text-link back">
         <ArrowLeft size={14} /> All agents
       </Link>

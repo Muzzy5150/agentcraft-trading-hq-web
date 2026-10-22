@@ -4,15 +4,22 @@ import { Gallery } from "@/components/gallery";
 export const metadata: Metadata = { title: "The Agents" };
 export default function Agents() {
   return (
-    <div className="container page">
-      <div className="page-heading">
-        <Eyebrow>THE PEOPLE, SORT OF, BEHIND THE SCREENS</Eyebrow>
-        <h1>A floor full of characters.</h1>
-        <p>
-          12 distinct roles. An entire world of opinions.
-          <br />
-          Meet the researchers, traders and builders of AgentCraft.
-        </p>
+    <div className="container page agents-page">
+      <div className="page-heading gallery-heading">
+        <div>
+          <Eyebrow>THE PEOPLE, SORT OF, BEHIND THE SCREENS</Eyebrow>
+          <h1>A floor full of characters.</h1>
+          <p>
+            12 distinct roles. An entire world of opinions.
+            <br />
+            Meet the researchers, traders and builders of AgentCraft.
+          </p>
+        </div>
+        <div className="cast-mosaic" aria-hidden="true">
+          <img src="/images/alon.webp" alt="" />
+          <img src="/images/threadguy.webp" alt="" />
+          <img src="/images/toly.webp" alt="" />
+        </div>
       </div>
       <Gallery />
       <div className="notice">

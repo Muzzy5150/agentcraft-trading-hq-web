@@ -28,9 +28,9 @@ export function Header() {
         <nav className={open ? "nav open" : "nav"} aria-label="Main navigation">
           {[
             ["/", "Overview"],
-            ["/live", "Live HQ"],
+            ["/live", "Watch Live"],
             ["/agents", "The Agents"],
-            ["/trades", "Trade Log"],
+            ["/trades", "Trades"],
           ].map(([url, label]) => (
             <Link
               onClick={() => setOpen(false)}
@@ -44,7 +44,7 @@ export function Header() {
           ))}
         </nav>
         <Link href="/deploy" className="nav-deploy">
-          Run your own HQ <ArrowUpRight size={15} />
+          BUILD YOUR OWN <ArrowUpRight size={15} />
         </Link>
       </div>
     </header>

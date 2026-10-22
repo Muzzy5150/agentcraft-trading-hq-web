@@ -10,20 +10,28 @@ import {
 export const metadata: Metadata = { title: "Paper Trade Log" };
 export default function Trades() {
   return (
-    <div className="container page">
-      <div className="page-heading">
-        <Eyebrow>THE PUBLIC PAPER LEDGER</Eyebrow>
-        <h1>
-          Show the work.
-          <br />
-          <span className="gold">Keep the receipts.</span>
-        </h1>
-        <p>
-          Actual recorded paper trades and research decisions.
-          <br />
-          Shared capital and isolated evaluations, clearly separated.
-        </p>
-        <span className="badge gold">PAPER TRADING ONLY · NO REAL ORDERS</span>
+    <div className="container page trades-page">
+      <div className="page-heading journal-heading">
+        <div>
+          <Eyebrow>THE PUBLIC PAPER LEDGER</Eyebrow>
+          <h1>
+            Show the work.
+            <br />
+            <span className="gold">Keep the receipts.</span>
+          </h1>
+          <p>
+            Actual recorded paper trades and research decisions.
+            <br />
+            Shared capital and isolated evaluations, clearly separated.
+          </p>
+          <span className="badge gold">
+            PAPER TRADING ONLY · NO REAL ORDERS
+          </span>
+        </div>
+        <img
+          src="/images/trading.webp"
+          alt="Market monitors inside the Minecraft trading headquarters"
+        />
       </div>
       <StatusStrip />
       <Metrics />

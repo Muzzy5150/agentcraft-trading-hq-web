@@ -74,7 +74,8 @@ export function AgentCard({
           {agent.name}
           <ArrowUpRight size={16} />
         </h3>
-        <p>{agent.title}</p>
+        <p className="agent-title">{agent.title}</p>
+        <p className="agent-description">{agent.description}</p>
         <div className="agent-specialty">
           {agent.strategy?.replaceAll("_", " ") ||
             agent.specialty.split(" · ")[0]}
