@@ -1,0 +1,224 @@
+[
+  {
+    "file": "/images/hq.webp",
+    "source": "artifacts/evidence/raj-final-hall.png",
+    "sourceSha256": "800b160cd5378e34fa81ac31173a983530bcfc90e91e5221f1c25fe9cc207786",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/trading.webp",
+    "source": "artifacts/evidence/hq-dex-v2-trading_floor.png",
+    "sourceSha256": "22970b9b365b6e13a15d7e747d0c89e108f1135eab6aa941fafecb7a14e5c4d4",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/social.webp",
+    "source": "artifacts/evidence/threadguy-desk.png",
+    "sourceSha256": "5bcfb1d2e6dcfc6e831e6035bb6c63ea1851773b26d357dc15d7cfc18d4f8bf5",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/coding.webp",
+    "source": "artifacts/evidence/raj-desk.png",
+    "sourceSha256": "aed0efc2dde1796931e58c24a9aeaf2356c0338cce7f1d31e521de066500befa",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/alon.webp",
+    "source": "artifacts/evidence/alon-3d-front.png",
+    "sourceSha256": "968a6f87f8ac215a6400661307286fb220f3c3a84790a9c35b243622eb0ebb0e",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1227,
+      "top": 0,
+      "width": 1385,
+      "height": 1732
+    }
+  },
+  {
+    "file": "/images/alon-desk.webp",
+    "source": "artifacts/evidence/raj-final-hall.png",
+    "sourceSha256": "800b160cd5378e34fa81ac31173a983530bcfc90e91e5221f1c25fe9cc207786",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/poorgoat.webp",
+    "source": "artifacts/evidence/poorgoat-3d-front.png",
+    "sourceSha256": "48647a52bc12467c4f6e60397ced8c6a40430561eb98837ce7c3651190d46e6e",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1228,
+      "top": 0,
+      "width": 1384,
+      "height": 1730
+    }
+  },
+  {
+    "file": "/images/poorgoat-desk.webp",
+    "source": "artifacts/evidence/raj-final-hall.png",
+    "sourceSha256": "800b160cd5378e34fa81ac31173a983530bcfc90e91e5221f1c25fe9cc207786",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/jack.webp",
+    "source": "artifacts/evidence/jack-front.png",
+    "sourceSha256": "c588215fc67c493c3b93d9ec0607db8dfffc5982cb809d067b65958cfc555041",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1227,
+      "top": 0,
+      "width": 1385,
+      "height": 1732
+    }
+  },
+  {
+    "file": "/images/jack-desk.webp",
+    "source": "artifacts/evidence/raj-final-hall.png",
+    "sourceSha256": "800b160cd5378e34fa81ac31173a983530bcfc90e91e5221f1c25fe9cc207786",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/ansem.webp",
+    "source": "artifacts/evidence/ansem-front.png",
+    "sourceSha256": "1b6a2afd796e05afde71012da1859a2a8ea07b9eb87dd7a696b0a96cd951a9cc",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1227,
+      "top": 0,
+      "width": 1385,
+      "height": 1732
+    }
+  },
+  {
+    "file": "/images/ansem-desk.webp",
+    "source": "artifacts/evidence/ansem-desk.png",
+    "sourceSha256": "9e6a1aaa231c2fbe02bd9a90b484c800901ad130b3881f2aeabb5a71972f7c81",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/frank.webp",
+    "source": "artifacts/evidence/frank-front.png",
+    "sourceSha256": "cf1d29345795a44010f0c0ff6969388520f732430825c723030324c63265707d",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1226,
+      "top": 0,
+      "width": 1387,
+      "height": 1734
+    }
+  },
+  {
+    "file": "/images/frank-desk.webp",
+    "source": "artifacts/evidence/frank-desk.png",
+    "sourceSha256": "d34789920018242d2e9d68dbce66eca48679ba7f1a084924e561d275c08dc0a2",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/kimchi.webp",
+    "source": "artifacts/evidence/kimchi-front.png",
+    "sourceSha256": "854a18421ba87e5b43d7e3b882ab2cb052bcaeaa72ccfdd4557aee17cfaa37e9",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1231,
+      "top": 0,
+      "width": 1377,
+      "height": 1722
+    }
+  },
+  {
+    "file": "/images/kimchi-desk.webp",
+    "source": "artifacts/evidence/kimchi-desk.png",
+    "sourceSha256": "3650a05233acdd1d87fbeab21613ae95cf8b22f8f3f2f5dba2b19d7fbe91e318",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/rasmr.webp",
+    "source": "artifacts/evidence/rasmr-front.png",
+    "sourceSha256": "6447658f88c1cad98a6f0e8e276483771988775fe1e87bf6da0b8786e894c673",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1231,
+      "top": 0,
+      "width": 1377,
+      "height": 1722
+    }
+  },
+  {
+    "file": "/images/rasmr-desk.webp",
+    "source": "artifacts/evidence/rasmr-desk.png",
+    "sourceSha256": "3cf931f4d87c35c7a58b1cc23b841afd1583388a57a562613c8638d2a7744228",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/threadguy.webp",
+    "source": "artifacts/evidence/threadguy-front.png",
+    "sourceSha256": "a210c55302ef91bba255a2d2cfe314e93fa98e3cc884b90440e4594ee8710646",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1231,
+      "top": 0,
+      "width": 1377,
+      "height": 1722
+    }
+  },
+  {
+    "file": "/images/threadguy-desk.webp",
+    "source": "artifacts/evidence/threadguy-desk.png",
+    "sourceSha256": "5bcfb1d2e6dcfc6e831e6035bb6c63ea1851773b26d357dc15d7cfc18d4f8bf5",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/toly.webp",
+    "source": "artifacts/evidence/toly-front.png",
+    "sourceSha256": "3a2e6971538b7127a09128f6bc2a12873523f2b468bda3392c17c0caf969fd88",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1226,
+      "top": 0,
+      "width": 1387,
+      "height": 1734
+    }
+  },
+  {
+    "file": "/images/toly-desk.webp",
+    "source": "artifacts/evidence/toly-desk.png",
+    "sourceSha256": "0ccde98f5a3bcf35d5d6fd1b132dcd2f3a77796a8ff42c3f8bcce607c94380a6",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/mert.webp",
+    "source": "artifacts/evidence/mert-front.png",
+    "sourceSha256": "c8a9540520bb0380b9d03ac027ca8bc3305108afe5bd5dfd4d46930110d5c8ee",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1231,
+      "top": 0,
+      "width": 1377,
+      "height": 1722
+    }
+  },
+  {
+    "file": "/images/mert-desk.webp",
+    "source": "artifacts/evidence/mert-desk.png",
+    "sourceSha256": "48c9aff80aa169846f255146d86f05d54509785cbb7f2576363b788ac19226de",
+    "kind": "actual Minecraft screenshot"
+  },
+  {
+    "file": "/images/raj.webp",
+    "source": "artifacts/evidence/raj-front.png",
+    "sourceSha256": "5e2a012e0d20f6cab7aed6afab817effd65f390cf1f62fa1930a97c8b2be6a44",
+    "kind": "actual Minecraft screenshot, center-cropped for portrait",
+    "crop": {
+      "left": 1231,
+      "top": 0,
+      "width": 1377,
+      "height": 1722
+    }
+  },
+  {
+    "file": "/images/raj-desk.webp",
+    "source": "artifacts/evidence/raj-desk.png",
+    "sourceSha256": "aed0efc2dde1796931e58c24a9aeaf2356c0338cce7f1d31e521de066500befa",
+    "kind": "actual Minecraft screenshot"
+  }
+]

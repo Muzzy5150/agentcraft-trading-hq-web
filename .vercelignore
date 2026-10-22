@@ -1,0 +1,7 @@
+docs/screenshots/
+release/
+test-results/
+playwright-report/
+.publisher/
+.env*
+!.env.example
