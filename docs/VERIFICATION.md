@@ -27,3 +27,7 @@ Supabase project creation is pending provider terms acceptance. The attempt used
 No real stream was configured or started. Official Twitch/YouTube embed configuration and offline fallback are implemented. Configured means configured, never automatically LIVE.
 
 Full Windows/macOS Minecraft HQ packages remain unavailable pending runtime redistribution provenance, generic models and clean installation verification. Only the standalone reporting kit has been locally packaged and installed. JACOB's requested persona remains a planned website profile; source Byte was not changed.
+
+Corrected preview verified: `https://agentcraft-trading-hq-dxwomt5um-muzzy5150s-projects.vercel.app` returned HTTP 200 for `/`, `/agents/alon`, `/api/health` and `/api/events?type=paper_fill`. Health truthfully reports database not configured, and events report 10 historical fills. Preview protection was accessed through the authenticated Vercel CLI, not disabled.
+
+Final public deployment verified without authentication: https://agentcraft-trading-hq-web.vercel.app . Production deployment `dpl_7yXVwaiVuFfvWjuWdFNAjPYvBXw1`. Public `/api/health` returned HTTP 200 with `PAPER ONLY`, `database: not configured` and `historicalFallback: true`. All 12 Playwright tests then passed against the public production URL (desktop and mobile), including every agent profile and actual API/filter interactions. Final production screenshots are in `docs/screenshots/`.
