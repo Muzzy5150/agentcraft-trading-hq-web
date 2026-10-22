@@ -16,6 +16,7 @@ alter table public.public_events enable row level security;
 alter table public.publisher_status enable row level security;
 alter table public.publisher_nonces enable row level security;
 revoke all on public.public_events,public.publisher_status,public.publisher_nonces from anon,authenticated;
+grant select on public.public_events,public.publisher_status to service_role;
 -- Read access is through bounded server endpoints only. No browser database write grants.
 create or replace function public.ingest_public_batch(p_publisher text,p_nonce text,p_events jsonb,p_snapshot jsonb default null)
 returns integer language plpgsql security definer set search_path=public,pg_temp as $$

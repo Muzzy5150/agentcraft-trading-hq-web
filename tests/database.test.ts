@@ -113,6 +113,9 @@ test("actual SQL: signed ingestion, replay rejection, idempotency, ordering, rat
       () => rpc("rate-test", randomUUID(), []),
       /RATE_LIMIT/,
     );
+    await db.exec("set role service_role");
+    await db.query("select * from public_events limit 1");
+    await db.exec("reset role");
     await db.exec("set role anon");
     await assert.rejects(
       () => db.query("select * from public_events"),
